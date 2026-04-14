@@ -177,12 +177,9 @@ scenario = "harmonic"
 The Hamiltonian is discretized as:
 
 $$
-\hat{H}
-=
--\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}
-+
-V(x)
+\hat{H}=-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}+V(x)
 $$
+
 
 The second derivative is approximated using finite differences:
 
