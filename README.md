@@ -30,13 +30,7 @@ It is useful for exploring key quantum mechanics ideas such as:
 The simulation evolves the wavefunction $\psi(x,t)$ using the **time-dependent Schrödinger equation**:
 
 $$
-i\hbar \frac{\partial \psi(x,t)}{\partial t}
-=
-\left[
--\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}
-+
-V(x)
-\right]\psi(x,t)
+i\hbar \frac{\partial \psi(x,t)}{\partial t}=\left[-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}+V(x)\right]\psi(x,t)
 $$
 
 where:
