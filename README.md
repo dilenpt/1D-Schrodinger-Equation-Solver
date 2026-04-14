@@ -186,9 +186,7 @@ $$
 Time evolution is performed using the **Crank–Nicolson scheme**:
 
 $$
-\left(I + \frac{i\,dt}{2\hbar}H\right)\psi^{n+1}
-=
-\left(I - \frac{i\,dt}{2\hbar}H\right)\psi^n
+\left(I + \frac{i\,dt}{2\hbar}H\right)\psi^{n+1}=\left(I - \frac{i\,dt}{2\hbar}H\right)\psi^n
 $$
 
 This method is widely used because it is numerically stable and helps preserve total probability.
